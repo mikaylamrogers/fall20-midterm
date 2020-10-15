@@ -1,0 +1,66 @@
+Conceptualizing a Project
+
+1. Establish a purpose (thesis, subject matter => why do we have this subject matter and what can we do with it?)
+
+2. Figure out how to display this thesis
+    - What do we want to say? What is our angle?
+    - How have other said this? What is their angle?
+    - Visual language for this thesis?
+
+3. Do the work
+    - Includes a refinement step. Where can we make improvements?
+
+
+
+/// ideas
+    - USDA nutrition & product complaints
+        https://open.fda.gov/apis/food/event/
+        https://ndb.nal.usda.gov/ndb/doc/index?ref=apilist.fun
+
+    - product complaints & news headlines/reportings
+        https://ndb.nal.usda.gov/ndb/doc/index?ref=apilist.fun
+        https://newsapi.org/
+
+    - (whole foods product) complaints & (whole foods) sales of that product
+        * visually displays happy/sad face
+
+
+    - Art museum admission sales & travel to that city
+        https://www.rijksmuseum.nl/en/rijksstudio/my/profile
+
+
+    - Art museum & Instagram posts
+        https://www.rijksmuseum.nl/en/rijksstudio/my/profile
+        https://www.instagram.com/developer/
+
+    - Coffee shops (using google maps API) & gentrification rate
+
+
+
+USDA: https://ndb.nal.usda.gov/ndb/doc/index?ref=apilist.fun
+nutrition: https://developer.nutritionix.com/
+
+
+food and art
+
+
+1. Food product complaints & sales of those products
+2. USDA nutrition of foods & product complaints of those foods
+3. art museum admission sales & travel to that city
+4. coffee shops in a city & gentrification in that city
+
+country where popular artworks were created / travel in that country
+
+city where an artist is from / country on map
+
+
+
+
+artist (van gogh, etc.) / collections/galleries/museums their work is currently being featured
+    ! art encyclopedia: https://www.wikiart.org/en/App/GetApi
+    ! paris museums: https://apicollections.parismusees.paris.fr/
+    new york art data: https://www.nyartbeat.com/list/event_type_print_painting_bypopular
+    met: https://metmuseum.github.io/
+
+
+
