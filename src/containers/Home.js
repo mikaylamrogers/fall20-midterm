@@ -5,32 +5,43 @@ import axios from 'axios';
 
 function Home() {
     const [wikiArtData, setWikiArtData] = useState([]);
-    // const [anotherDataSource, setAnotherDataSource] = useState([]);
+    const [artsyMuseumData, setArtsyMuseumData] = useState([]);
 
+    // console.log('ENV VALUE', process.env.API_SESSION_KEY);
+
+    // WikiArt //
     useEffect(() => {
         axios
         .get("https://cors-anywhere.herokuapp.com/https://www.wikiart.org/en/app/api/popularartists?&authSessionKey=dc991ee37f18")
             
         .then(function (response) {
-            console.log('response', response)
                 const popularartistsresponse = response.data;
                 setWikiArtData(popularartistsresponse);
         })
         .catch(function (error) {
             console.warn(error);
-        })
+        });
     }, []);
-
     console.log("wikiArtData", wikiArtData);
 
-    // useEffect(() => {   
-    //     const searchParams = history.location.search;
-    //     const urlParams = new URLSearchParams(searchParams);
-    //     const city = urlParams.get("city");
-    //     if (city) {
-    //         setCity(city);
-    //     }
-    // }, [history]);
+    // Artsy //
+    useEffect(() => {
+        axios
+        .get("https://api.artsy.net/api/artists/4d8b92b34eb68a1b2c0003f4")
+            
+        .then(function (response) {
+                const artlocationresponse = response.data;
+                setWikiArtData(artlocationresponse);
+        })
+        .catch(function (error) {
+            console.warn(error);
+        });
+    }, []);
+    console.log("artsyMuseumData", artsyMuseumData);
+
+
+    
+
 
 
 
@@ -40,7 +51,6 @@ function Home() {
             {wikiArtData.map((artistName, i) => (
                 <div key={i}>
                     <h2>{artistName.artistName}</h2>
-                    {/* <p>Artist Name: {artistName.url}</p> */}
                 </div>
             ))}
         </div>
