@@ -16,32 +16,38 @@ h4 {
   text-align: center;
 }
 
+.Traits {
+  font-size: 1.8vh;
+}
+
+
+/* SIGN COLORS */
 .Sagittarius {
-  color: purple;
+  color: #7811d9;
 }
 
 .Libra {
-  color: pink
+  color: #ed47ae;
 }
 
 .Pisces {
-  color: lightgreen;
+  color: #81d433;
 }
 
 .Cancer {
-  color: silver;
+  color: #e3e3e3;
 }
 
 .Capricorn {
-  color: brown;
+  color: #736748;
 }
 
 .Aries {
-  color: red;
+  color: #e81c1c;
 }
 
 .Virgo {
-  color: darkolivegreen;
+  color: #505e2a;
 }
 
 .Scorpio {
@@ -49,9 +55,50 @@ h4 {
 }
 
 .Leo {
-  color: gold;
+  color: #ba9606;
 }
 
 .Taurus {
-  color: green;
+  color: #0fc908;
 }
+/* ~~~~ */
+
+
+/* HOVER */
+.Edvard:hover, .GeorgesSeurat:hover {
+  color: white;
+  background-color: #7811d9;
+  transition: 0.8s;
+}
+
+.Caravaggio:hover {
+  color: white;
+  background-color: #ed47ae;
+  transition: 0.8s;
+}
+
+.Michelangelo:hover {
+  color: white;
+  background-color: #81d433;
+  transition: 0.8s;
+}
+
+.MarcChagall:hover {
+  color: white;
+  background-color: #e3e3e3;
+  transition: 0.8s;
+}
+
+.Basquiat:hover {
+  color: white;
+  background-color: #736748;
+  transition: 0.8s;
+}
+
+.VincentvanGogh:hover {
+  color: white;
+  background-color: #e81c1c;
+  transition: 0.8s;
+}
+/* ~~~~ */
+
