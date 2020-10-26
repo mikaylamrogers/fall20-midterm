@@ -1,20 +1,57 @@
-h1 {
-  color: lightgreen;
-  text-align: center;
-}
-
 h2  {
   text-align: center;
+  font-size: 10vh;
 }
 
 h3 {
-  font-size: 20px;
-  color: grey;
+  font-size: 3vh;
+  color: lightgray;
   text-align: center;
 }
 
 h4 {
   font-size: 15px;
   color: lightgreen;
-  text-align: center
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.Sagittarius {
+  color: purple;
+}
+
+.Libra {
+  color: pink
+}
+
+.Pisces {
+  color: lightgreen;
+}
+
+.Cancer {
+  color: silver;
+}
+
+.Capricorn {
+  color: brown;
+}
+
+.Aries {
+  color: red;
+}
+
+.Virgo {
+  color: darkolivegreen;
+}
+
+.Scorpio {
+  color: black;
+}
+
+.Leo {
+  color: gold;
+}
+
+.Taurus {
+  color: green;
 }

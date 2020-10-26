@@ -23,7 +23,6 @@ function Home() {
             console.warn(error);
         });
     }, []);
-    // console.log("wikiArtData", wikiArtData);
 
     const {
         EdvardMunch,
@@ -130,7 +129,6 @@ function Home() {
             console.warn(error);
         });
     }, []);
-    // console.log("signData", signData);
 
     const {
         Aries,
@@ -189,11 +187,6 @@ function Home() {
             Pisces,
         };
     }, [signData]);
-
-
-
-
-
 
 
     return (
