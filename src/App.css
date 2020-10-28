@@ -1,67 +1,50 @@
+body {
+  background-color: #ededd8;
+}
+
+/* NAME */
 h2  {
+  font-family: 'Archivo', sans-serif;
   text-align: center;
   font-size: 10vh;
+  padding-top: 30px;
+  font-weight: normal;
+  text-transform: uppercase;
 }
 
+/* BIRTHDAY */
 h3 {
   font-size: 3vh;
-  color: lightgray;
+  color: grey;
+  font-weight: normal;
   text-align: center;
+  margin-top: -50px;
+  padding: 0;
+  line-height: 0px;
 }
 
+/* SIGN */
 h4 {
   font-size: 15px;
-  color: lightgreen;
+  color: #ededd8;
   text-transform: uppercase;
   text-align: center;
+  line-height: 60px;
 }
 
 .Traits {
   font-size: 1.8vh;
+  color: #ededd8;
+  text-align: center;
+  padding-right: 200px;
+  padding-left: 200px;
+  padding-bottom: 50px;
 }
 
-
-/* SIGN COLORS */
-.Sagittarius {
-  color: #7811d9;
-}
-
-.Libra {
-  color: #ed47ae;
-}
-
-.Pisces {
-  color: #81d433;
-}
-
-.Cancer {
-  color: #e3e3e3;
-}
-
-.Capricorn {
-  color: #736748;
-}
-
-.Aries {
-  color: #e81c1c;
-}
-
-.Virgo {
-  color: #505e2a;
-}
-
-.Scorpio {
-  color: black;
-}
-
-.Leo {
-  color: #ba9606;
-}
-
-.Taurus {
-  color: #0fc908;
-}
-/* ~~~~ */
+/* h4:hover {
+  color: white;
+  transition: 0.8s;
+} */
 
 
 /* HOVER */
@@ -83,22 +66,46 @@ h4 {
   transition: 0.8s;
 }
 
-.MarcChagall:hover {
+.MarcChagall:hover, .LaszloMoholyNagy:hover {
   color: white;
   background-color: #e3e3e3;
   transition: 0.8s;
 }
 
-.Basquiat:hover {
+.Basquiat:hover, .HenriMatisse:hover, .PaulCezanne:hover {
   color: white;
   background-color: #736748;
   transition: 0.8s;
 }
 
-.VincentvanGogh:hover {
+.VincentvanGogh:hover, .LeonardodaVinci:hover {
   color: white;
   background-color: #e81c1c;
   transition: 0.8s;
 }
-/* ~~~~ */
+
+.ManRay:hover {
+  color: white;
+  background-color: olive;
+  transition: 0.8s;
+}
+
+.ClaudeMonet:hover, .PabloPicasso:hover, .JohannesVermeer:hover, .GeorgiaOKeeffe:hover, .PaulSignac:hover {
+  color: white;
+  background-color: black;
+  transition: 0.8s;
+}
+
+.AndyWarhol:hover, .MarcelDuchamp:hover {
+  color: white;
+  background-color: silver;
+  transition: 0.8s;
+}
+
+.SalvadorDali:hover {
+  color: white;
+  background-color: green;
+  transition: 0.8s;
+}
+
 

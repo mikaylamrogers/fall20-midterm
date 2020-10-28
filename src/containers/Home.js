@@ -190,53 +190,11 @@ function Home() {
 
     return (
         <div>
-            <div className="Edvard">
-                <h2>{EdvardMunch.artistName}</h2>
-                    <h3>{EdvardMunch.birthDayAsString}</h3>
-                    <h4 className="Sagittarius">{Sagittarius.name}</h4>
-                    <p className="Traits">{Sagittarius.mental_traits}</p>
-            </div>
-            
             <div className="Caravaggio">
                 <h2>{Caravaggio.artistName}</h2>
                     <h3>{Caravaggio.birthDayAsString}</h3>
                     <h4 className="Libra">{Libra.name}</h4>
                     <p className="Traits">{Libra.mental_traits}</p>
-            </div>
-
-            <div className="Michelangelo">
-                <h2>{Michelangelo.artistName}</h2>
-                    <h3>{Michelangelo.birthDayAsString}</h3>
-                    <h4 className="Pisces">{Pisces.name}</h4>
-                    <p className="Traits">{Pisces.mental_traits}</p>
-            </div>
-
-            <div className="GeorgesSeurat">
-                <h2>{GeorgesSeurat.artistName}</h2>
-                    <h3>{GeorgesSeurat.birthDayAsString}</h3>
-                    <h4 className="Sagittarius">{Sagittarius.name}</h4>
-                    <p className="Traits">{Sagittarius.mental_traits}</p>
-            </div>
-
-            <div className="MarcChagall">
-                <h2>{MarcChagall.artistName}</h2>
-                    <h3>{MarcChagall.birthDayAsString}</h3>
-                    <h4 className="Cancer">{Cancer.name}</h4>
-                    <p className="Traits">{Cancer.mental_traits}</p>
-            </div>
-
-            <div className="Basquiat">
-                <h2>{Basquiat.artistName}</h2>
-                    <h3>{Basquiat.birthDayAsString}</h3>
-                    <h4 className="Capricorn">{Capricorn.name}</h4>
-                    <p className="Traits">{Capricorn.mental_traits}</p>
-             </div>
-
-            <div className="VincentvanGogh">
-                <h2>{VincentvanGogh.artistName}</h2>
-                    <h3>{VincentvanGogh.birthDayAsString}</h3>
-                    <h4 className="Aries">{Aries.name}</h4>
-                    <p className="Traits">{Aries.mental_traits}</p>
             </div>
 
             <div className="ManRay">
@@ -246,6 +204,20 @@ function Home() {
                     <p className="Traits">{Virgo.mental_traits}</p>
             </div>
 
+            <div className="Basquiat">
+                <h2>{Basquiat.artistName}</h2>
+                    <h3>{Basquiat.birthDayAsString}</h3>
+                    <h4 className="Capricorn">{Capricorn.name}</h4>
+                    <p className="Traits">{Capricorn.mental_traits}</p>
+             </div>
+
+             <div className="LaszloMoholyNagy">
+                <h2>{LaszloMoholyNagy.artistName}</h2>
+                    <h3>{LaszloMoholyNagy.birthDayAsString}</h3>
+                    <h4 className="Cancer">{Cancer.name}</h4>
+                    <p className="Traits">{Cancer.mental_traits}</p>
+            </div>
+
             <div className="ClaudeMonet">
                 <h2>{ClaudeMonet.artistName}</h2>
                     <h3>{ClaudeMonet.birthDayAsString}</h3>
@@ -253,11 +225,32 @@ function Home() {
                     <p className="Traits">{Scorpio.mental_traits}</p>
             </div>
 
-            <div className="HenriMatisse">
-                <h2>{HenriMatisse.artistName}</h2>
-                    <h3>{HenriMatisse.birthDayAsString}</h3>
-                    <h4 className="Capricorn">{Capricorn.name}</h4>
-                    <p className="Traits">{Capricorn.mental_traits}</p>
+            <div className="Michelangelo">
+                <h2>{Michelangelo.artistName}</h2>
+                    <h3>{Michelangelo.birthDayAsString}</h3>
+                    <h4 className="Pisces">{Pisces.name}</h4>
+                    <p className="Traits">{Pisces.mental_traits}</p>
+            </div>
+
+            <div className="MarcChagall">
+                <h2>{MarcChagall.artistName}</h2>
+                    <h3>{MarcChagall.birthDayAsString}</h3>
+                    <h4 className="Cancer">{Cancer.name}</h4>
+                    <p className="Traits">{Cancer.mental_traits}</p>
+            </div>
+
+            <div className="VincentvanGogh">
+                <h2>{VincentvanGogh.artistName}</h2>
+                    <h3>{VincentvanGogh.birthDayAsString}</h3>
+                    <h4 className="Aries">{Aries.name}</h4>
+                    <p className="Traits">{Aries.mental_traits}</p>
+            </div>
+
+            <div className="GeorgesSeurat">
+                <h2>{GeorgesSeurat.artistName}</h2>
+                    <h3>{GeorgesSeurat.birthDayAsString}</h3>
+                    <h4 className="Sagittarius">{Sagittarius.name}</h4>
+                    <p className="Traits">{Sagittarius.mental_traits}</p>
             </div>
 
             <div className="PaulCezanne">
@@ -281,6 +274,13 @@ function Home() {
                     <p className="Traits">{Aries.mental_traits}</p>
             </div>
 
+            <div className="HenriMatisse">
+                <h2>{HenriMatisse.artistName}</h2>
+                    <h3>{HenriMatisse.birthDayAsString}</h3>
+                    <h4 className="Capricorn">{Capricorn.name}</h4>
+                    <p className="Traits">{Capricorn.mental_traits}</p>
+            </div>
+
             <div className="AndyWarhol">
                 <h2>{AndyWarhol.artistName}</h2>
                     <h3>{AndyWarhol.birthDayAsString}</h3>
@@ -293,6 +293,13 @@ function Home() {
                     <h3>{JohannesVermeer.birthDayAsString}</h3>
                     <h4 className="Scorpio">{Scorpio.name}</h4>
                     <p className="Traits">{Scorpio.mental_traits}</p>
+            </div>
+
+            <div className="SalvadorDali">
+                <h2>{SalvadorDali.artistName}</h2>
+                    <h3>{SalvadorDali.birthDayAsString}</h3>
+                    <h4 className="Taurus">{Taurus.name}</h4>
+                    <p className="Traits">{Taurus.mental_traits}</p>
             </div>
 
             <div className="GeorgiaOKeeffe">
@@ -309,6 +316,13 @@ function Home() {
                     <p className="Traits">{Leo.mental_traits}</p>
             </div>
 
+            <div className="Edvard">
+                <h2>{EdvardMunch.artistName}</h2>
+                    <h3>{EdvardMunch.birthDayAsString}</h3>
+                    <h4 className="Sagittarius">{Sagittarius.name}</h4>
+                    <p className="Traits">{Sagittarius.mental_traits}</p>
+            </div>
+
             <div className="PaulSignac">
                 <h2>{PaulSignac.artistName}</h2>
                     <h3>{PaulSignac.birthDayAsString}</h3>
@@ -316,19 +330,9 @@ function Home() {
                     <p className="Traits">{Scorpio.mental_traits}</p>
             </div>
 
-            <div className="LaszloMoholyNagy">
-                <h2>{LaszloMoholyNagy.artistName}</h2>
-                    <h3>{LaszloMoholyNagy.birthDayAsString}</h3>
-                    <h4 className="Cancer">{Cancer.name}</h4>
-                    <p className="Traits">{Cancer.mental_traits}</p>
-            </div>
 
-            <div className="SalvadorDali">
-                <h2>{SalvadorDali.artistName}</h2>
-                    <h3>{SalvadorDali.birthDayAsString}</h3>
-                    <h4 className="Taurus">{Taurus.name}</h4>
-                    <p className="Traits">{Taurus.mental_traits}</p>
-            </div>
+
+
         </div>
         
     );
