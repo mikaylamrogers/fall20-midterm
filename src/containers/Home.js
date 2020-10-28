@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import axios from 'axios';
-// import {  useHistory  } from 'react-router-dom';
 
 function Home() {
     const [wikiArtData, setWikiArtData] = useState(null);
@@ -127,7 +126,6 @@ function Home() {
             console.warn(error);
         });
     }, []);
-    console.log("signData", signData);
 
     const {
         Aries,
@@ -329,12 +327,7 @@ function Home() {
                     <h4 className="Scorpio">{Scorpio.name}</h4>
                     <p className="Traits">{Scorpio.mental_traits}</p>
             </div>
-
-
-
-
         </div>
-        
     );
 }
 

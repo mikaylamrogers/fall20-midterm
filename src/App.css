@@ -1,5 +1,5 @@
 body {
-  background-color: #ededd8;
+  background-color: #e0e0ca;
 }
 
 /* NAME */
@@ -15,7 +15,7 @@ h2  {
 /* BIRTHDAY */
 h3 {
   font-size: 3vh;
-  color: grey;
+  color: white;
   font-weight: normal;
   text-align: center;
   margin-top: -50px;
@@ -26,26 +26,22 @@ h3 {
 /* SIGN */
 h4 {
   font-size: 15px;
-  color: #ededd8;
+  color: #e0e0ca;
   text-transform: uppercase;
   text-align: center;
   line-height: 60px;
+  padding-bottom: 0px;
 }
 
 .Traits {
   font-size: 1.8vh;
-  color: #ededd8;
+  color: #e0e0ca;
   text-align: center;
   padding-right: 200px;
   padding-left: 200px;
   padding-bottom: 50px;
+  padding-top: 0px;
 }
-
-/* h4:hover {
-  color: white;
-  transition: 0.8s;
-} */
-
 
 /* HOVER */
 .Edvard:hover, .GeorgesSeurat:hover {
