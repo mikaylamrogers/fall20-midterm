@@ -43,61 +43,72 @@ h4 {
   padding-top: 0px;
 }
 
-/* HOVER */
+
+
+/* Sagittarius */
 .Edvard:hover, .GeorgesSeurat:hover {
   color: white;
   background-color: #7811d9;
   transition: 0.8s;
 }
 
+/* Libra */
 .Caravaggio:hover {
   color: white;
   background-color: #ed47ae;
   transition: 0.8s;
 }
 
+/* Pisces */
 .Michelangelo:hover {
   color: white;
   background-color: #81d433;
   transition: 0.8s;
 }
 
+/* Cancer */
 .MarcChagall:hover, .LaszloMoholyNagy:hover {
   color: white;
-  background-color: #e3e3e3;
+  background-color: gray;
   transition: 0.8s;
 }
 
+/* Capricorn */
 .Basquiat:hover, .HenriMatisse:hover, .PaulCezanne:hover {
   color: white;
   background-color: #736748;
   transition: 0.8s;
 }
 
+/* Aries */
 .VincentvanGogh:hover, .LeonardodaVinci:hover {
   color: white;
   background-color: #e81c1c;
   transition: 0.8s;
 }
 
+/* Virgo */
 .ManRay:hover {
   color: white;
   background-color: olive;
   transition: 0.8s;
 }
 
+/* Scorpio */
 .ClaudeMonet:hover, .PabloPicasso:hover, .JohannesVermeer:hover, .GeorgiaOKeeffe:hover, .PaulSignac:hover {
   color: white;
   background-color: black;
   transition: 0.8s;
 }
 
+/* Leo */
 .AndyWarhol:hover, .MarcelDuchamp:hover {
   color: white;
   background-color: silver;
   transition: 0.8s;
 }
 
+/* Taurus */
 .SalvadorDali:hover {
   color: white;
   background-color: green;
